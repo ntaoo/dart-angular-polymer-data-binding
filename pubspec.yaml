@@ -1,0 +1,7 @@
+name: angularpolymer
+description: A sample web application
+dependencies:
+  angular: any
+  angular_node_bind: any
+  browser: any
+  polymer: any
