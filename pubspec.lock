@@ -8,7 +8,7 @@ packages:
   angular:
     description: angular
     source: hosted
-    version: "0.9.5"
+    version: "0.9.5+2"
   angular_node_bind:
     description: angular_node_bind
     source: hosted
@@ -20,7 +20,7 @@ packages:
   barback:
     description: barback
     source: hosted
-    version: "0.11.0+2"
+    version: "0.11.0+3"
   browser:
     description: browser
     source: hosted
@@ -72,7 +72,7 @@ packages:
   polymer:
     description: polymer
     source: hosted
-    version: "0.9.4"
+    version: "0.9.5"
   polymer_elements:
     description: polymer_elements
     source: hosted

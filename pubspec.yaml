@@ -5,3 +5,6 @@ dependencies:
   angular_node_bind: any
   browser: any
   polymer: any
+transformers:
+- polymer:
+    entry_points: web/angularpolymer.html
