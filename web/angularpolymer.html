@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html ng-app>
+<html >
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,21 +16,29 @@
     </style>
   </head>
   <body>
-    <h1>Angular and Polymer</h1>
-    
-    <h2>Sitting in a DOM tree, k-i-s-s-i-n-g</h2>
-    
-    <section>
-      <p>Angular</p>
+  
+    <!--
+      don't put ng-app on html or body. the polymer build inlines
+      custom elements definitions, which can trigger bugs if the code
+      inlined is inside of ng-app
+     -->
+    <div ng-app>
+      <h1>Angular and Polymer</h1>
+      
+      <h2>Sitting in a DOM tree, k-i-s-s-i-n-g</h2>
+      
+      <section>
+        <p>Angular</p>
         <p>
           <input type="text" ng-model="cool"> Angular binding: {{cool}}
         </p>
-    </section>
-
-    <section>
-      <p>Polymer</p>
-      <my-element message="[[ cool ]]"></my-element>
-    </section>
+      </section>
+  
+      <section>
+        <p>Polymer</p>
+        <my-element message="[[ cool ]]"></my-element>
+      </section>
+    </div>
 
     <script type="application/dart" src="angularpolymer.dart"></script>
     <script src="packages/browser/dart.js"></script>

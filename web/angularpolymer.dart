@@ -8,7 +8,9 @@ import 'package:angular_node_bind/angular_node_bind.dart' show NodeBindModule;
 import 'dart:mirrors';
 
 void main() {
-  initPolymer().run(() {
+  initPolymer()
+  .run(() {
     ngBootstrap(module: new NodeBindModule());
-  });
+  })
+  ;
 }

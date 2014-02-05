@@ -8,7 +8,7 @@ packages:
   angular:
     description: angular
     source: hosted
-    version: "0.9.5+2"
+    version: "0.9.6"
   angular_node_bind:
     description: angular_node_bind
     source: hosted
@@ -88,7 +88,7 @@ packages:
   route_hierarchical:
     description: route_hierarchical
     source: hosted
-    version: "0.4.10"
+    version: "0.4.11"
   shadow_dom:
     description: shadow_dom
     source: hosted
